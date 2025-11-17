@@ -28,6 +28,7 @@
         <flyway.url>jdbc:mysql://localhost:3306/onlinebanking2?createDatabaseIfNotExist=true&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=Asia/Jakarta&amp;useSSL=false&amp;allowPublicKeyRetrieval=true</flyway.url>
         <flyway.user>root</flyway.user>
         <flyway.password>root</flyway.password>
+        <sonar.organization>ibrahimdevl</sonar.organization>
     </properties>
 
     <dependencies>
@@ -123,7 +124,6 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>11.7.2</version>
             </plugin>
-            <!-- SonarQube scanner plugin; invoked with: mvn sonar:sonar -Dsonar.host.url=<url> -Dsonar.login=<token> -->
             <plugin>
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
